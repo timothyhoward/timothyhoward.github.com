@@ -70,11 +70,11 @@ aside {
   border-bottom: 1px dotted #999;
   padding: 0 0 30px 0; }
   aside a {
-    color: #2D7D06;
+    color: #0544FF;
     text-decoration: none;
     border-bottom: 1px solid #246605; }
   aside a:hover {
-    color: #246605; }
+    color: #FF0544; }
   aside h1 {
     font-family: "Arvil Sans", Helvetica, sans-serif;
     font-size: 55px;
@@ -87,21 +87,21 @@ aside {
       border-bottom: none;
       -webkit-transition: all 0.5s; }
     aside h1 a:hover {
-      color: #359006; }
+      color: #FF0544; }
   aside .blurb {
     font: normal 16px/1.6em "PT Serif", Georgia, serif;
     margin: 0 0 15px 0;
-    color: #3A2214; }
+    color: #3D3D3D; }
   aside .search {
     margin: 10px 0 30px 0; }
     aside .search input[type=text] {
-      border: 1px solid #CECECE;
+      border: 1px solid #0544FF;
       padding: 5px;
       width: 160px;
       -webkit-border-radius: 4px;
       -moz-border-radius: 4px;
       border-radius: 4px;
-      color: #CECECE; }
+      color: #3D3D3D; }
   aside h2 {
     font-family: 'PT Serif', Georgia, serif;
     font-weight: bold;
