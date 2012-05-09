@@ -53,12 +53,12 @@ body {
 			FONT FACE EMBEDDING
 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @font-face {
-  font-family: "Arvil Sans";
-  src: url("http://graphicgraffiti.com.au/assets/typefaces/Arvil_Sans.ttf"); }
+  font-family: "AbrahamLincoln";
+  src: url("http://graphicgraffiti.com.au/assets/typefaces/AbrahamLincoln.ttf"); }
 
 @font-face {
-  font-family: "Wisdom Script";
-  src: url("http://graphicgraffiti.com.au/assets/typefaces/Wisdom_Script.otf"); }
+  font-family: "Arvil Sans";
+  src: url("http://graphicgraffiti.com.au/assets/typefaces/Arvil_Sans.ttf"); }
 
 /*  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 			SIDEBAR
