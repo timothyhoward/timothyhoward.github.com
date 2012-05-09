@@ -162,6 +162,8 @@ article {
     margin: 0 0 16px 0;
     line-height: 1.5em;
     border-bottom: none; }
+  article h2 a {
+    border-bottom: none; }
   article p, article ul, article ol, article blockquote, article .source {
     font-size: 17px;
     line-height: 1.6em;
