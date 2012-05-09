@@ -158,9 +158,10 @@ article {
   article h2 {
     font-family: 'Wisdom Script', Georgia, serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     margin: 0 0 16px 0;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    border-bottom: none; }
   article p, article ul, article ol, article blockquote, article .source {
     font-size: 17px;
     line-height: 1.6em;
