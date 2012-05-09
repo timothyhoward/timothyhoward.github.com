@@ -1,16 +1,432 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://timothyhoward.github.com/atom.xml" rel="self"/>
-  <link href="http://timothyhoward.github.com/"/>
-  <updated>2012-05-09T18:26:48+10:00</updated>
-  <id>http://timothyhoward.github.com/</id>
+  <title><![CDATA[Graphic Graffiti]]></title>
+  <link href="http://graphicgraffiti.com.au//atom.xml" rel="self"/>
+  <link href="http://graphicgraffiti.com.au//"/>
+  <updated>2012-05-09T18:59:36+10:00</updated>
+  <id>http://graphicgraffiti.com.au//</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Timothy Howard]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Blueseed &rarr;]]></title>
+	    <link href="http://www.blueseed.co/"/>
+    
+    <updated>2012-05-09T16:04:00+10:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/05/blueseed</id>
+		
+			<content type="html"><![CDATA[<p>Blueseed is an idea to fit out a ship off the coast of California in international waters that will allow &#8220;boldest, brightest, and most talented tech entrepreneurs&#8221; to start a business with little immigration overhead.</p>
+
+<p>If this ridiculous idea got off the ground it would be the physical manifestation of the life destroying culture of working
+yourself into the ground to make a startup succeed. That is, get acquired. I can&#8217;t think of anything I&#8217;d want less than to
+isolate myself on an island,
+bunking with four others in a tiny space while working in an environment where I&#8217;m expected to give up everything to make a
+venture capitalist rich.</p>
+
+<p>What a nightmare.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/05/blueseed/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Bathroom Fans &rarr;]]></title>
+	    <link href="http://www.marco.org/2012/05/07/why-i-write-about-bathroom-fans"/>
+    
+    <updated>2012-05-07T21:36:00+10:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/05/bathroom-fans</id>
+		
+			<content type="html"><![CDATA[<p>Marco Arment as part of his argument for writing posts about bathroom fans and pillowcasing strategies:</p>
+
+<blockquote><p>Installing timer switches on my bathroom fans has eliminated a <em>daily</em> annoyance from my life. Deciding on a pillowcasing strategy has made me sleep more comfortably <em>every night</em> since I wrote that stupid article seven years ago.</p></blockquote>
+
+<p>I&#8217;m with Marco. Finding ways to automate and streamline parts of your life should be a continual pursuit. Think about how many times you&#8217;ve lost your keys and how much time and frustration you&#8217;d have saved if years ago you purposefully decided you were going to put your keys in the same place every day forever.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/05/bathroom-fans/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Money, Stress and The Cloud &rarr;]]></title>
+	    <link href="http://icelab.com.au/articles/money-stress-and-the-cloud/"/>
+    
+    <updated>2012-05-07T19:17:00+10:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/05/tim-riley</id>
+		
+			<content type="html"><![CDATA[<p>Tim Riley&#8217;s post about the way solving a difficult software development problem can interfere with your entire life struck a chord with me. Although Tim&#8217;s problem was bigger than anything I&#8217;ve had to deal with, credit card processing on a client&#8217;s website, the horrible feelings are the same.</p>
+
+<p>All software has bugs, you accept and systematically work through them. But some bugs exist on another plane, unable to be fixed through regular debugging processes. Often they&#8217;re complicated by context, an unfamiliar environment or parts out of your control. You can become <em>obsessed</em> with these bugs. When dealing with them I have an extremely difficult time thinking about anything else. I can&#8217;t read, I can&#8217;t talk to people, I&#8217;m unpleasant to be around. After hours without progress you go to bed thinking about it. Thinking about it makes you angry and frustrated but <em>you can&#8217;t stop thinking about it</em>. You spend so long at the computer you lose all perspective and follow paths that take you further from the solution. With each minute you spend banging your head against the problem you think less clearly and the possibility of solving the problem decreases. It is <em>frustrating</em>.</p>
+
+<p>Experience reminds you how to overcome this wall. You have to get up, leave, distract yourself and come back with a fresh perspective and a clear mind. Actually doing it is difficult because it feels like quitting, it feels like you&#8217;re delaying the solution. It&#8217;s difficult if other people depend on the solution, it&#8217;s difficult because you feel like you&#8217;re close, it&#8217;s difficult because you desperately want it fixed and out of your mind. To solve the problem you have to stop trying to solve the problem, at least for a short while.</p>
+
+<p>Tim went through this while dealing with other external stresses. His post is a great insight for non-programmers on the darker side of software development.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/05/tim-riley/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Impressions]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/04/no-title/"/>
+    
+    <updated>2012-04-01T08:31:00+10:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/04/no-title</id>
+		
+			<content type="html"><![CDATA[<p>Twelve years ago I first started using a computer for general school work, typing up assignments and the like. I was using Microsoft Word on Windows 95. The language of either Word or the system was set to US English rather than British English which resulted in many incorrectly red underlined words. In the early days Word&#8217;s list of known names for spellchecking purpose must have been much shorter because nearly every name would also get red underlined.</p>
+
+<p>It bothered me having something marked as wrong which I knew was right but Word had the ability to &#8220;Add word to dictionary&#8221; so that it was considered a correctly spelt word from then on. I was doing this a lot, too much it turned out. The last time I did it I got an error: &#8220;The custom learned words dictionary is full&#8221;.</p>
+
+<p>I don&#8217;t do it nearly as often any more as I know how to set my computer&#8217;s locale and many more names (including smart things like those from my contact list) are included in the spell checking dictionary.</p>
+
+<p>But when I do, even though I&#8217;m using an operating system made by a completely different company, even though I&#8217;m using different text editing or page layout software, even though such a limited was likely stamped out of that software many versions ago, even though it&#8217;s been <em>twelve years</em>, I still have a split second of hesitation before selecting the Learn spelling menu item.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[The Global Mail]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/03/the-global-mail/"/>
+    
+    <updated>2012-03-02T06:25:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/03/the-global-mail</id>
+		
+			<content type="html"><![CDATA[<p>In a world of where online news success is measured by advertising impressions the newly launched <a href="http://www.theglobalmail.org/">Global Mail</a> is taking a refreshingly scrupulous approach. Funded by philanthropy, run by an edict to serve the audience, not advertisers, staffed by many ex-ABC journalists who publish only a few articles each day.</p>
+
+<p>The design is interesting: horizontal scrolling with article body text split into thin newspaper-like thin columns. For articles where I can easily sideways scroll with a trackpad or iPad touch screen I think it works really well. On the homepage where you can only navigate sideways with buttons it&#8217;s clunky. The Twitter ticker along the bottom of the homepage is gratuitous.</p>
+
+<p>From what I&#8217;ve read so far the writing is top notch. I really enjoyed Mike Seccombe&#8217;s piece on <a href="http://www.theglobalmail.org/feature/why-the-super-bowl-is-a-super-bore/15/">the cultural differences between Australian and American sport</a>. All in all this is very close to the news website I&#8217;d create myself in an ideal world.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Pretty But Useless Infographics: Now in Video]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/pretty-but-useless-infographics-now-in-video/"/>
+    
+    <updated>2012-02-28T17:16:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/pretty-but-useless-infographics-now-in-video</id>
+		
+			<content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=dhhdmahBQU8">This video about how acupuncture works</a> by RMIT University was <a href="http://twitter.com/makenosound/status/174286341729816576">brought to my attention</a> this morning after I <a href="http://twitter.com/jimwhimpey/status/174283324586602496">made a joke</a> about chiropractors.</p>
+
+<p>Looking past the pretty veneer you can see that it&#8217;s little more than a closed captioned two minute verbal explanation. The captions are simply animated in as the words are being spoken. One concept does get visually illustrated but it&#8217;s the <em>analogy</em>. They animate cars driving on a road, why would I need <em>that</em> illustrated, I can imagine that. You have a video, why not animate what actually happens <em>to the body</em>, <em>inside</em>, where I can&#8217;t otherwise see it!?</p>
+
+<p>I thought that it may have just been the farcical topic of acupuncture (it magically fixes the equivalent of broken down cars in your body!) that corrupted the first video. Of course it&#8217;s hard to visualise and animate something that&#8217;s inherently flawed but the <a href="http://www.youtube.com/watch?v=q_E4DrPRLPI">equivalent video on interest rates</a>, a subject ripe for visual explanation, is just as bad. Simply a rudimentary verbal explanation of interest rates with fancy closed captions too.</p>
+
+<p>These kinds of &#8220;infographics&#8221; which don&#8217;t actually disseminate information at all are <a href="http://mrgan.tumblr.com/post/509200141/infographics">rife</a> at dumb sites like <a href="http://mashable.com/2011/09/30/twitter-history-infographic/">Mashable</a>. It saddens me that the same concept has leaked into what should be a richer medium for explanation and that a <em>reputable university</em> is also unable to see the difference between pretty and meaningful.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[New UQCC Website &rarr;]]></title>
+	    <link href="http://uqcycle.com/"/>
+    
+    <updated>2012-02-28T06:31:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/new-uqcc-website</id>
+		
+			<content type="html"><![CDATA[<p>I was handed the old University of Queensland Cycling Club website not long after it was launched. It was <a href="http://www.joomla.org/">Joomla</a> hell. Not only was it extremely difficult to do regular administrative stuff like <em>create pages</em> but it was very buggy and the back end was more opaque than the front. This put me in a situation where I was responsible for running the site but <em>hated</em> using it and couldn&#8217;t even take steps towards fixing it or adding anything new.</p>
+
+<p>So I spent months recreating the whole site in WordPress and <a href="http://bbpress.org/">bbPress</a> with a custom theme and a few custom plugins. I&#8217;m really happy with how it turned as far as design and functionality goes but most importantly it frees my club from the clutches of Joomla.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/02/new-uqcc-website/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Octopress Image Resizer &rarr;]]></title>
+	    <link href="https://github.com/jimwhimpey/Blog-Image-Resizer"/>
+    
+    <updated>2012-02-27T21:05:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/octopress-image-resizer</id>
+		
+			<content type="html"><![CDATA[<p>I&#8217;ve been overwhelmingly happy with <a href="http://octopress.org/">Octopress</a> since <a href="http://valhallaisland.com/blog/2012/octopress/">the switch</a>. There&#8217;s just one gap: image resizing and uploading. I didn&#8217;t realise how much I took this for granted with WordPress and Tumblr.</p>
+
+<p>To fill the gap I&#8217;ve <a href="https://github.com/jimwhimpey/Blog-Image-Resizer">written a script</a> which takes a local image path, resizes a small and large version to your specification, uploads it to a server and returns a block of HTML of the small image linking to the larger one. I used it for <a href="http://valhallaisland.com/blog/2012/microsoft-apple-web/">this post</a> and it saved a lot of time. I also like that it decouples my image locations from my blog engine if ever I want to move again.</p>
+
+<p>It&#8217;s not pretty code and it&#8217;s been made specifically to cater for my requirements but I hope someone else can find it useful either as it is or as a base for something better.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/02/octopress-image-resizer/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Things Cloud Public Beta &rarr;]]></title>
+	    <link href="http://culturedcode.com/things/blog/2012/02/things-cloud-public-beta.html"/>
+    
+    <updated>2012-02-22T09:30:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/things-cloud-public-beta</id>
+		
+			<content type="html"><![CDATA[<p>I&#8217;ve been a loyal Things user for years and I&#8217;ve been using the closed beta of Things on the Mac and iPhone for many months. From the day I downloaded the first beta it&#8217;s been as solid as a rock. It was a long time coming but Cultured Code ignored the public pressure, took the time to do it right and it&#8217;s paid off. The Things syncing experience is polished to a very high gloss.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/02/things-cloud-public-beta/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/microsoft-apple-web/"/>
+    
+    <updated>2012-02-21T20:35:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/microsoft-apple-web</id>
+		
+			<content type="html"><![CDATA[<p>I&#8217;ve recently been building an HTML email newsletter at work. Getting an HTML email to work across the many <a href="http://www.campaignmonitor.com/css/">extremely limited</a> and broken email clients makes IE6 debugging look like fin. I truly don&#8217;t think HTML email is worth the effort but that&#8217;s another story.</p>
+
+<p>It meant I needed to get a Hotmail account for testing. The first time I&#8217;d used Hotmail in 6 or 7 years. As a regular iCloud webmail user I found what I think is a nice example of the difference between Apple and Microsoft at the screens shown immediately after logging in:</p>
+
+<p><a href="http://static.jimwhimpey.com/blog/hotmail-login-large.png"><img src="http://static.jimwhimpey.com/blog/hotmail-login-small.png" alt="hotmail-login" class="no-border"></a></p>
+
+<p><a href="http://static.jimwhimpey.com/blog/icloud-login-large.png"><img src="http://static.jimwhimpey.com/blog/icloud-login-small.png" alt="icloud-login" class="no-border"></a></p>
+
+<p>I remember as a teenager using Windows before I switched to the Mac getting frustrated about these kinds of UIs and Windows&#8217; inexplicable popularity despite it. It feels great to have watched better persist and <a href="http://www.wolframalpha.com/input/?i=MSFT%2C+AAPL">better eventually win</a>.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[From Tumblr to Octopress]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/octopress/"/>
+    
+    <updated>2012-02-14T20:45:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/octopress</id>
+		
+			<content type="html"><![CDATA[<p>The move from WordPress to Tumblr a few years ago felt great. All the focus was on posting content and I was liberated from the need to administer a blog. Since then Tumblr has struggled with stability problems while implementing weird &#8220;social features&#8221; like photo replies (but no native text replies) and getting obsessed with things like New York Fashion Week. Recently they added these <a href="http://staff.tumblr.com/post/16980189397/highlighted-posts">dumb labels</a> and I recognised Tumblr is going too far in a direction I&#8217;m not interested in.</p>
+
+<p>I first became interested in (well, aware of) generated flat file publishing systems when I read about Brent&#8217;s <a href="http://inessential.com/2009/01/30/new_publishing_system_tour_of_my_head">homemade system</a> over three years ago. Only a couple of months after that I got a job working on a site that was using a similar flat file system on a <a href="http://www.abc.net.au/news/"><em>much</em> larger scale</a> (it&#8217;s only recently been replaced). I was intrigued by the big advantages of such a system: speed and simplicity.</p>
+
+<p>My loss of respect for Tumblr coincided with reading about <a href="http://octopress.org/">Octopress</a> on <a href="http://mattgemmell.com/2011/09/12/blogging-with-octopress/">Matt Gemmell&#8217;s blog</a>. It sounded perfect. It&#8217;s the kind of new wave of &#8220;hacker&#8221; software that&#8217;s well designed and a joy to use. I credit Github for this great trend.</p>
+
+<h3>Transistion</h3>
+
+<p>Getting my content out of Tumblr was a breeze with Jekyll&#8217;s <a href="https://github.com/mojombo/jekyll/wiki/blog-migrations">blog mirgration script</a>. I had to make a few wholesale modifications to some paths and similar things in the post files the script created but this is where Octopress imediately demonstrated it&#8217;s advantages. I was able to do regex find and replaces across 500+ posts in a few seconds using TextMate. Doing something similar to posts stored in a database would be a real pain in the ass.</p>
+
+<h3>Redesign</h3>
+
+<p>The default Octopress theme is the most elegant default theme shipping with any CMS I&#8217;ve seen but it offers more than I need and in any case, I want a unique look for my blog. The CSS of the default theme is made to be customised and continuing the for hackers ideology its organised into <em>25</em> (yes twenty-five) <a href="http://sass-lang.com/">Sass</a> files which compile down to one CSS file. Every feature of Sass is used, everything is modular, everything is a variable. I was hoping to reuse some of the responsive stuff but it was too complex and I ended up throwing it all out and starting again with my own CSS.</p>
+
+<p>Logic in the template files is handled by <a href="http://liquidmarkup.org/">Liquid</a> which made them easy to modify and generally work with.</p>
+
+<p>When I first started out blogging with WordPress around 8 or 9 years ago I would compulsively redesign my site. Looking back this was fantastic, with every new redesign I&#8217;d learn so much. It might say something about my maturity or current state of mind that even though I&#8217;ve been using this design for over a year and moving to Octopress was an ideal opportunity to change it, I&#8217;ve kept everything the same with only some subtle updates.</p>
+
+<p>I&#8217;d love to create some publicly available Octopress themes just as I did for WordPress and then Tumblr.</p>
+
+<h3>Images</h3>
+
+<p>The only thing missing is a simple way to process images. I need something that I can easily pass through an original, have it resize to a small and a large, upload them to a server somewhere and return some Markdown pointing to the large surrounded by a link to the larger one. I&#8217;ll write a simple script to do this for me and the result will be images decoupled from my publishing system.</p>
+
+<p><strong>Update</strong>: I solved this problem with an <a href="http://valhallaisland.com/blog/2012/octopress-image-resizer/">image resizing script</a>.</p>
+
+<h3>Conclusion</h3>
+
+<p>I&#8217;ve been using Octopress for a week now and I&#8217;ve immediately noticed the blazing speed. I don&#8217;t write much that gets big traffic but I can rest assured know that if I do it&#8217;ll no doubt handle the load with room to spare. Another great advantage is the simple ability to use proper version control for the <em>whole</em> site, both the code that generates it and the generated blog. I love the whole workflow.</p>
+
+<p>While I&#8217;m not publishing with Tumblr anymore I still use it to read the Tumblr blogs I follow. All week I&#8217;ve been seeing <a href="http://cl.ly/3d3C3W2I0l0t1P2X3q1E">this</a> promoted in the dashboard sidebar. It feels like I left just in time.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Service]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/service/"/>
+    
+    <updated>2012-02-14T18:10:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/service</id>
+		
+			<content type="html"><![CDATA[<p>Before I left work this afternoon I thought I&#8217;d try a different barber closer to my new office. I checked online and discovered there wasn&#8217;t one as close as what I&#8217;d hoped so I resolved to just stop in at the same barbershop I&#8217;ve been going to for the last couple of years.</p>
+
+<p>When I got there the &#8220;closed&#8221; sign was hanging. I looked at the opening hours on the door: &#8220;Mon-Fri 8am to 5:30pm&#8221;. I looked at my bike computer: 5:14pm. I got the attention of someone inside and asked what was going on. She said it takes them 15 minutes to clean and they won&#8217;t start on someone in the last 15 minutes. I tried to talk her around. She was steadfast.</p>
+
+<p>This pissed me off and I <a href="http://twitter.com/jimwhimpey/status/169321194183593984">vented on Twitter</a>:</p>
+
+<blockquote><p>My hair takes 15-20 minutes to cut. I&#8217;ve been going to that barber for years. Not anymore.</p></blockquote>
+
+<p>I got a <a href="http://twitter.com/freshtonic/status/169327784727023616">couple</a> of <a href="http://twitter.com/kondro/status/169322614198767616">responses</a> suggesting it&#8217;s a bit drastic to cut ties considering I&#8217;ve been going there so long.</p>
+
+<p>The fact I&#8217;ve been going there so long is another reason they should have served me. Would it be so difficult to cut someone&#8217;s hair 15 minutes <em>before you close</em>, clean up around me and stay back 5 or 10 minutes? For someone who&#8217;s spent hundreds of dollars there over the years?</p>
+
+<p>There&#8217;s nothing exceptional about this barber and for me, barbers are interchangable. There&#8217;s literally 20 options a short distance from work and home. There&#8217;s nothing at all tying me to my regular barber, they&#8217;re simply one of many very similar options. Serving me after they&#8217;d turned the sign (even though it was 15 minutes before closing) may have created a tie. Instead they&#8217;ve given me a great reason to choose someone else.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/conventions/"/>
+    
+    <updated>2012-02-13T21:08:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/conventions</id>
+		
+			<content type="html"><![CDATA[<p>Last week&#8217;s This American Life podcast episode, a rerun from 1997, was all about <a href="http://www.thisamericanlife.org/radio-archives/episode/74/conventions">conventions</a>. At 37:38 starts the saddest story I have ever heard, bizarrely starting at a NeXT convention and a Steve Jobs comedy roast. I&#8217;m not sure why this story hits my usually somewhat callous heart so hard but I was deeply moved.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/kickstarter-facebook/"/>
+    
+    <updated>2012-02-12T14:21:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/kickstarter-facebook</id>
+		
+			<content type="html"><![CDATA[<p>Tim O&#8217;Reilly <a href="https://twitter.com/#!/timoreilly/status/167741234390106113">tweeting</a>:</p>
+
+<blockquote><p>Seems to me that Kickstarter is the most important tech company since Facebook. Maybe more important in the long run.</p></blockquote>
+
+<p>I&#8217;d say <a href="http://www.kickstarter.com/">Kickstarter</a>, a service which completely turns the table on product development, artistic endeavours, innovation and brings new meaning to the whole concept of supply and demand, is <em>definitely</em> more important than Facebook, a service which facilitates friends chatting and sharing photos.</p>
+
+<p>What is <em>important</em> about Facebook? What&#8217;s it brought us that didn&#8217;t exist before or wouldn&#8217;t have existed otherwise? Nothing but Zynga that I can think of.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/17144067997/"/>
+    
+    <updated>2012-02-06T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/17144067997</id>
+		
+			<content type="html"><![CDATA[<p>Photo replies, ask, fan mail and now <a href="http://staff.tumblr.com/post/16980189397/highlighted-posts">highlighted posts</a>. I mean, just <a href="http://static.jimwhimpey.com/images/stupid-labels.png">look at this shit</a>. The core of Tumblr has remained the same but the steady addition of gratuitous features pandering to the teenage masses participating in an online popularity contest has put me off. It was a refreshing switch from WordPress, a good 590 posts and a couple of years but Tumblr is going in a direction that is not for me.</p>
+
+
+
+<p>When I get a chance I&#8217;ll be moving Valhalla Island to <a href="http://octopress.org/">Octopress</a> or a custom system similar to <a href="http://inessential.com/2009/01/30/new_publishing_system_tour_of_my_head">Brent&#8217;s</a>. Hopefully <a href="https://github.com/markpasc/tumblrout">this tool</a> will help me smoothly transition the archive.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/16968566099/"/>
+    
+    <updated>2012-02-03T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/16968566099</id>
+		
+			<content type="html"><![CDATA[<img src="http://graphicgraffiti.com.au//assets/tumblr/tumblr_lyt7iny7JW1qzwfbio1_500.gif"/><br/><p>With Apple&#8217;s focus on the stuff that matters it&#8217;s surprising to see the very old link pointer cursor change in Mac OS 10.7.3. Stranger still considering the direction towards touch interfaces.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/16916649940/"/>
+    
+    <updated>2012-02-02T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/16916649940</id>
+		
+			<content type="html"><![CDATA[<p>Australia&#8217;s richest person, <a href="http://www.abc.net.au/news/2012-02-02/gina-rinehart/3808150">Gina Rinehart</a>, is disgustingly obese proof that money can&#8217;t buy beauty. External or otherwise. It boggles my mind and sickens me to think that someone with such vast financial wealth <strong>made from <em>literally</em> plundering the land</strong> would be so <a href="http://www.taxrates.cc/html/06g-australian-tax-protest.html">anti-tax</a>.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[The Dumbest Idea in the World]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/16915080796/"/>
+    
+    <updated>2012-02-02T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/16915080796</id>
+		
+			<content type="html"><![CDATA[<p><a href="http://www.forbes.com/sites/stevedenning/2011/11/28/maximizing-shareholder-value-the-dumbest-idea-in-the-world/">Maximising shareholder value</a> that is. Roger Martin in his book Fixing the Game:</p>
+
+
+
+<blockquote>
+
+  <p>Imagine an NFL coach holding a press conference on Wednesday to announce that he predicts a win by 9 points on Sunday, and that bettors should recognize that the current spread of 6 points is too low. Or picture the team’s quarterback standing up in the postgame press conference and apologizing for having only won by 3 points when the final betting spread was 9 points in his team’s favor. While it’s laughable to imagine coaches or quarterbacks doing so, CEOs are expected to do both of these things.</p>
+
+  
+
+  <p>[&#8230;]</p>
+
+  
+
+  <p>If this were the situation in the NFL, then everyone would realize that the “real game” of football had become utterly corrupted by the “expectations game” of gambling.</p>
+
+</blockquote>
+
+
+
+<p>This is why I&#8217;d be bothered about Facebook&#8217;s IPO if I had an account there, the focus will be moved from what&#8217;s best for you as a customer to what&#8217;s best for the shareholder. I don&#8217;t even know why Facebook would want to do it, they had $3.5 billion of revenue last year, they don&#8217;t need the money and they&#8217;d lose control.</p>
+]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[Tesla Model S &rarr;]]></title>
+	    <link href="http://www.teslamotors.com/models/options"/>
+    
+    <updated>2012-02-01T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/16853899634</id>
+		
+			<content type="html"><![CDATA[<p>I&#8217;m definitely not a car person. I&#8217;ll go as far to say that cars are inherently flawed and even fuelled by 100% clean energy their prevalence has many negative consequences. But I digress, I wanted to write about the couple of things Tesla did right.</p>
+
+
+
+<ol><li>It looks like a regular car. Not that the Prius is a great example of an electric car but I think they really fucked up by making it look so unlike &#8220;normal&#8221; cars. And not that I think regular cars look or function that well. I think not freaking people out with <a href="http://www.autoscraze.com/wp-content/uploads/2011/03/Mitsubishi-i-MiEV.jpg">radically ugly</a> electric cars is a good step towards adoption.</li>
+
+<li>The mileage the 85 kWh battery gets (480km) makes the car usable in the only scenario where cars are truly appropriate: travelling as efficiently as possible to remote places.</li>
+
+<li>They made it regular sized. It can even carry 7 people with a special seat configuration. Like I said <a href="http://valhallaisland.com/post/16517415963">a couple of days ago</a>, a tiny car with low range that just carries one person is barely better than walking.</li>
+
+<li>It uses a regular power outlet with the option for a higher powered specialty charger. The <a href="http://www.nissanusa.com/leaf-electric-car/index#/leaf-electric-car/video/all/LEAF_technology/charging">Leaf</a> requires a special thing installed by an electrician in your garage making impromptu charges impossible.</li>
+
+</ol><p>I think they&#8217;ve done a lot of things right to get it widely adopted.</p>
+
+
+
+<p>But I think they&#8217;ve gone wrong with the ridiculous number of options. There&#8217;s 54 possible combinations of model, wheel and roof. Those are only three of many other decisions you have to make. The possible combinations go into the thousands. $250 for an optional parcel shelf!? Just decide for me whether it&#8217;s a good idea, if it is, put it in and charge me for it.</p>
+
+
+
+<p>The same goes for the battery capacities. It&#8217;s obviously the most expensive thing about the car so removing capacity reduces the cost making it more accessible but it also removes the number one advantage: long range.</p>
+ <a href="http://graphicgraffiti.com.au//blog/2012/02/16853899634/">&#9875;</a>]]></content>
+		
+  </entry>
+  
+  <entry>
+		
+	    <title type="html"><![CDATA[No Title]]></title>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/02/16850549885/"/>
+    
+    <updated>2012-02-01T00:00:00+11:00</updated>
+    <id>http://graphicgraffiti.com.au//blog/2012/02/16850549885</id>
+		
+			<content type="html"><![CDATA[<p>While companies like Qantas are willing to <a href="http://valhallaisland.com/post/12096966406">screw customers and lose millions of dollars</a> as a tool to not pay their employees what they&#8217;re worth, Ken Grenda <a href="http://abc.net.au/news/2012-02-01/bus-company-rewards-staff-with-cash-bonuses/3803902">hands out millions of dollars worth of bonuses</a> to his loyal staff.</p>
+
+
+
+<blockquote>
+
+  <p>One bus driver, John, says Ken Grenda has been a great man to work for.</p>
+
+  
+
+  <p>&#8220;He is a generous person and a true gentleman,&#8221; he told ABC local radio.</p>
+
+</blockquote>
+
+
+
+<p>The definition of doing things right.</p>
+]]></content>
+		
+  </entry>
   
 </feed>
