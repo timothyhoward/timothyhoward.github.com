@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Valhalla Island]]></title>
-  <link href="http://valhallaisland.com//atom.xml" rel="self"/>
-  <link href="http://valhallaisland.com//"/>
-  <updated>2012-05-09T19:22:14+10:00</updated>
-  <id>http://valhallaisland.com//</id>
+  <title><![CDATA[Tenacious Tiger]]></title>
+  <link href="http://graphicgraffiti.com.au//atom.xml" rel="self"/>
+  <link href="http://graphicgraffiti.com.au//"/>
+  <updated>2012-05-09T19:27:03+10:00</updated>
+  <id>http://graphicgraffiti.com.au//</id>
   <author>
-    <name><![CDATA[Jim Whimpey]]></name>
+    <name><![CDATA[Timothy Howard]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -19,7 +19,7 @@
 	    <link href="http://www.blueseed.co/"/>
     
     <updated>2012-05-09T16:04:00+10:00</updated>
-    <id>http://valhallaisland.com//blog/2012/blueseed</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/blueseed</id>
 		
 			<content type="html"><![CDATA[<p>Blueseed is an idea to fit out a ship off the coast of California in international waters that will allow &#8220;boldest, brightest, and most talented tech entrepreneurs&#8221; to start a business with little immigration overhead.</p>
 
@@ -30,7 +30,7 @@ bunking with four others in a tiny space while working in an environment where I
 venture capitalist rich.</p>
 
 <p>What a nightmare.</p>
- <a href="http://valhallaisland.com//blog/2012/blueseed/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/blueseed/">&#9875;</a>]]></content>
 		
   </entry>
   
@@ -40,14 +40,14 @@ venture capitalist rich.</p>
 	    <link href="http://www.marco.org/2012/05/07/why-i-write-about-bathroom-fans"/>
     
     <updated>2012-05-07T21:36:00+10:00</updated>
-    <id>http://valhallaisland.com//blog/2012/bathroom-fans</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/bathroom-fans</id>
 		
 			<content type="html"><![CDATA[<p>Marco Arment as part of his argument for writing posts about bathroom fans and pillowcasing strategies:</p>
 
 <blockquote><p>Installing timer switches on my bathroom fans has eliminated a <em>daily</em> annoyance from my life. Deciding on a pillowcasing strategy has made me sleep more comfortably <em>every night</em> since I wrote that stupid article seven years ago.</p></blockquote>
 
 <p>I&#8217;m with Marco. Finding ways to automate and streamline parts of your life should be a continual pursuit. Think about how many times you&#8217;ve lost your keys and how much time and frustration you&#8217;d have saved if years ago you purposefully decided you were going to put your keys in the same place every day forever.</p>
- <a href="http://valhallaisland.com//blog/2012/bathroom-fans/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/bathroom-fans/">&#9875;</a>]]></content>
 		
   </entry>
   
@@ -57,7 +57,7 @@ venture capitalist rich.</p>
 	    <link href="http://icelab.com.au/articles/money-stress-and-the-cloud/"/>
     
     <updated>2012-05-07T19:17:00+10:00</updated>
-    <id>http://valhallaisland.com//blog/2012/tim-riley</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/tim-riley</id>
 		
 			<content type="html"><![CDATA[<p>Tim Riley&#8217;s post about the way solving a difficult software development problem can interfere with your entire life struck a chord with me. Although Tim&#8217;s problem was bigger than anything I&#8217;ve had to deal with, credit card processing on a client&#8217;s website, the horrible feelings are the same.</p>
 
@@ -66,17 +66,17 @@ venture capitalist rich.</p>
 <p>Experience reminds you how to overcome this wall. You have to get up, leave, distract yourself and come back with a fresh perspective and a clear mind. Actually doing it is difficult because it feels like quitting, it feels like you&#8217;re delaying the solution. It&#8217;s difficult if other people depend on the solution, it&#8217;s difficult because you feel like you&#8217;re close, it&#8217;s difficult because you desperately want it fixed and out of your mind. To solve the problem you have to stop trying to solve the problem, at least for a short while.</p>
 
 <p>Tim went through this while dealing with other external stresses. His post is a great insight for non-programmers on the darker side of software development.</p>
- <a href="http://valhallaisland.com//blog/2012/tim-riley/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/tim-riley/">&#9875;</a>]]></content>
 		
   </entry>
   
   <entry>
 		
 	    <title type="html"><![CDATA[Impressions]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/no-title/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/no-title/"/>
     
     <updated>2012-04-01T08:31:00+10:00</updated>
-    <id>http://valhallaisland.com//blog/2012/no-title</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/no-title</id>
 		
 			<content type="html"><![CDATA[<p>Twelve years ago I first started using a computer for general school work, typing up assignments and the like. I was using Microsoft Word on Windows 95. The language of either Word or the system was set to US English rather than British English which resulted in many incorrectly red underlined words. In the early days Word&#8217;s list of known names for spellchecking purpose must have been much shorter because nearly every name would also get red underlined.</p>
 
@@ -92,10 +92,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[The Global Mail]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/the-global-mail/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/the-global-mail/"/>
     
     <updated>2012-03-02T06:25:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/the-global-mail</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/the-global-mail</id>
 		
 			<content type="html"><![CDATA[<p>In a world of where online news success is measured by advertising impressions the newly launched <a href="http://www.theglobalmail.org/">Global Mail</a> is taking a refreshingly scrupulous approach. Funded by philanthropy, run by an edict to serve the audience, not advertisers, staffed by many ex-ABC journalists who publish only a few articles each day.</p>
 
@@ -109,10 +109,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[Pretty But Useless Infographics: Now in Video]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/pretty-but-useless-infographics-now-in-video/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/pretty-but-useless-infographics-now-in-video/"/>
     
     <updated>2012-02-28T17:16:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/pretty-but-useless-infographics-now-in-video</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/pretty-but-useless-infographics-now-in-video</id>
 		
 			<content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=dhhdmahBQU8">This video about how acupuncture works</a> by RMIT University was <a href="http://twitter.com/makenosound/status/174286341729816576">brought to my attention</a> this morning after I <a href="http://twitter.com/jimwhimpey/status/174283324586602496">made a joke</a> about chiropractors.</p>
 
@@ -131,12 +131,12 @@ venture capitalist rich.</p>
 	    <link href="http://uqcycle.com/"/>
     
     <updated>2012-02-28T06:31:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/new-uqcc-website</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/new-uqcc-website</id>
 		
 			<content type="html"><![CDATA[<p>I was handed the old University of Queensland Cycling Club website not long after it was launched. It was <a href="http://www.joomla.org/">Joomla</a> hell. Not only was it extremely difficult to do regular administrative stuff like <em>create pages</em> but it was very buggy and the back end was more opaque than the front. This put me in a situation where I was responsible for running the site but <em>hated</em> using it and couldn&#8217;t even take steps towards fixing it or adding anything new.</p>
 
 <p>So I spent months recreating the whole site in WordPress and <a href="http://bbpress.org/">bbPress</a> with a custom theme and a few custom plugins. I&#8217;m really happy with how it turned as far as design and functionality goes but most importantly it frees my club from the clutches of Joomla.</p>
- <a href="http://valhallaisland.com//blog/2012/new-uqcc-website/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/new-uqcc-website/">&#9875;</a>]]></content>
 		
   </entry>
   
@@ -146,14 +146,14 @@ venture capitalist rich.</p>
 	    <link href="https://github.com/jimwhimpey/Blog-Image-Resizer"/>
     
     <updated>2012-02-27T21:05:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/octopress-image-resizer</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/octopress-image-resizer</id>
 		
 			<content type="html"><![CDATA[<p>I&#8217;ve been overwhelmingly happy with <a href="http://octopress.org/">Octopress</a> since <a href="http://valhallaisland.com/blog/2012/octopress/">the switch</a>. There&#8217;s just one gap: image resizing and uploading. I didn&#8217;t realise how much I took this for granted with WordPress and Tumblr.</p>
 
 <p>To fill the gap I&#8217;ve <a href="https://github.com/jimwhimpey/Blog-Image-Resizer">written a script</a> which takes a local image path, resizes a small and large version to your specification, uploads it to a server and returns a block of HTML of the small image linking to the larger one. I used it for <a href="http://valhallaisland.com/blog/2012/microsoft-apple-web/">this post</a> and it saved a lot of time. I also like that it decouples my image locations from my blog engine if ever I want to move again.</p>
 
 <p>It&#8217;s not pretty code and it&#8217;s been made specifically to cater for my requirements but I hope someone else can find it useful either as it is or as a base for something better.</p>
- <a href="http://valhallaisland.com//blog/2012/octopress-image-resizer/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/octopress-image-resizer/">&#9875;</a>]]></content>
 		
   </entry>
   
@@ -163,20 +163,20 @@ venture capitalist rich.</p>
 	    <link href="http://culturedcode.com/things/blog/2012/02/things-cloud-public-beta.html"/>
     
     <updated>2012-02-22T09:30:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/things-cloud-public-beta</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/things-cloud-public-beta</id>
 		
 			<content type="html"><![CDATA[<p>I&#8217;ve been a loyal Things user for years and I&#8217;ve been using the closed beta of Things on the Mac and iPhone for many months. From the day I downloaded the first beta it&#8217;s been as solid as a rock. It was a long time coming but Cultured Code ignored the public pressure, took the time to do it right and it&#8217;s paid off. The Things syncing experience is polished to a very high gloss.</p>
- <a href="http://valhallaisland.com//blog/2012/things-cloud-public-beta/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/things-cloud-public-beta/">&#9875;</a>]]></content>
 		
   </entry>
   
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/microsoft-apple-web/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/microsoft-apple-web/"/>
     
     <updated>2012-02-21T20:35:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/microsoft-apple-web</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/microsoft-apple-web</id>
 		
 			<content type="html"><![CDATA[<p>I&#8217;ve recently been building an HTML email newsletter at work. Getting an HTML email to work across the many <a href="http://www.campaignmonitor.com/css/">extremely limited</a> and broken email clients makes IE6 debugging look like fin. I truly don&#8217;t think HTML email is worth the effort but that&#8217;s another story.</p>
 
@@ -194,10 +194,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[From Tumblr to Octopress]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/octopress/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/octopress/"/>
     
     <updated>2012-02-14T20:45:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/octopress</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/octopress</id>
 		
 			<content type="html"><![CDATA[<p>The move from WordPress to Tumblr a few years ago felt great. All the focus was on posting content and I was liberated from the need to administer a blog. Since then Tumblr has struggled with stability problems while implementing weird &#8220;social features&#8221; like photo replies (but no native text replies) and getting obsessed with things like New York Fashion Week. Recently they added these <a href="http://staff.tumblr.com/post/16980189397/highlighted-posts">dumb labels</a> and I recognised Tumblr is going too far in a direction I&#8217;m not interested in.</p>
 
@@ -237,10 +237,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[Service]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/service/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/service/"/>
     
     <updated>2012-02-14T18:10:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/service</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/service</id>
 		
 			<content type="html"><![CDATA[<p>Before I left work this afternoon I thought I&#8217;d try a different barber closer to my new office. I checked online and discovered there wasn&#8217;t one as close as what I&#8217;d hoped so I resolved to just stop in at the same barbershop I&#8217;ve been going to for the last couple of years.</p>
 
@@ -262,10 +262,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/conventions/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/conventions/"/>
     
     <updated>2012-02-13T21:08:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/conventions</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/conventions</id>
 		
 			<content type="html"><![CDATA[<p>Last week&#8217;s This American Life podcast episode, a rerun from 1997, was all about <a href="http://www.thisamericanlife.org/radio-archives/episode/74/conventions">conventions</a>. At 37:38 starts the saddest story I have ever heard, bizarrely starting at a NeXT convention and a Steve Jobs comedy roast. I&#8217;m not sure why this story hits my usually somewhat callous heart so hard but I was deeply moved.</p>
 ]]></content>
@@ -275,10 +275,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/kickstarter-facebook/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/kickstarter-facebook/"/>
     
     <updated>2012-02-12T14:21:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/kickstarter-facebook</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/kickstarter-facebook</id>
 		
 			<content type="html"><![CDATA[<p>Tim O&#8217;Reilly <a href="https://twitter.com/#!/timoreilly/status/167741234390106113">tweeting</a>:</p>
 
@@ -294,10 +294,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/17144067997/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/17144067997/"/>
     
     <updated>2012-02-06T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/17144067997</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/17144067997</id>
 		
 			<content type="html"><![CDATA[<p>Photo replies, ask, fan mail and now <a href="http://staff.tumblr.com/post/16980189397/highlighted-posts">highlighted posts</a>. I mean, just <a href="http://static.jimwhimpey.com/images/stupid-labels.png">look at this shit</a>. The core of Tumblr has remained the same but the steady addition of gratuitous features pandering to the teenage masses participating in an online popularity contest has put me off. It was a refreshing switch from WordPress, a good 590 posts and a couple of years but Tumblr is going in a direction that is not for me.</p>
 
@@ -311,12 +311,12 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/16968566099/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/16968566099/"/>
     
     <updated>2012-02-03T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/16968566099</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/16968566099</id>
 		
-			<content type="html"><![CDATA[<img src="http://valhallaisland.com//assets/tumblr/tumblr_lyt7iny7JW1qzwfbio1_500.gif"/><br/><p>With Apple&#8217;s focus on the stuff that matters it&#8217;s surprising to see the very old link pointer cursor change in Mac OS 10.7.3. Stranger still considering the direction towards touch interfaces.</p>
+			<content type="html"><![CDATA[<img src="http://graphicgraffiti.com.au//assets/tumblr/tumblr_lyt7iny7JW1qzwfbio1_500.gif"/><br/><p>With Apple&#8217;s focus on the stuff that matters it&#8217;s surprising to see the very old link pointer cursor change in Mac OS 10.7.3. Stranger still considering the direction towards touch interfaces.</p>
 ]]></content>
 		
   </entry>
@@ -324,10 +324,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/16916649940/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/16916649940/"/>
     
     <updated>2012-02-02T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/16916649940</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/16916649940</id>
 		
 			<content type="html"><![CDATA[<p>Australia&#8217;s richest person, <a href="http://www.abc.net.au/news/2012-02-02/gina-rinehart/3808150">Gina Rinehart</a>, is disgustingly obese proof that money can&#8217;t buy beauty. External or otherwise. It boggles my mind and sickens me to think that someone with such vast financial wealth <strong>made from <em>literally</em> plundering the land</strong> would be so <a href="http://www.taxrates.cc/html/06g-australian-tax-protest.html">anti-tax</a>.</p>
 ]]></content>
@@ -337,10 +337,10 @@ venture capitalist rich.</p>
   <entry>
 		
 	    <title type="html"><![CDATA[The Dumbest Idea in the World]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/16915080796/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/16915080796/"/>
     
     <updated>2012-02-02T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/16915080796</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/16915080796</id>
 		
 			<content type="html"><![CDATA[<p><a href="http://www.forbes.com/sites/stevedenning/2011/11/28/maximizing-shareholder-value-the-dumbest-idea-in-the-world/">Maximising shareholder value</a> that is. Roger Martin in his book Fixing the Game:</p>
 
@@ -373,7 +373,7 @@ venture capitalist rich.</p>
 	    <link href="http://www.teslamotors.com/models/options"/>
     
     <updated>2012-02-01T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/16853899634</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/16853899634</id>
 		
 			<content type="html"><![CDATA[<p>I&#8217;m definitely not a car person. I&#8217;ll go as far to say that cars are inherently flawed and even fuelled by 100% clean energy their prevalence has many negative consequences. But I digress, I wanted to write about the couple of things Tesla did right.</p>
 
@@ -396,17 +396,17 @@ venture capitalist rich.</p>
 
 
 <p>The same goes for the battery capacities. It&#8217;s obviously the most expensive thing about the car so removing capacity reduces the cost making it more accessible but it also removes the number one advantage: long range.</p>
- <a href="http://valhallaisland.com//blog/2012/16853899634/">&#9875;</a>]]></content>
+ <a href="http://graphicgraffiti.com.au//blog/2012/16853899634/">&#9875;</a>]]></content>
 		
   </entry>
   
   <entry>
 		
 	    <title type="html"><![CDATA[No Title]]></title>
-	    <link href="http://valhallaisland.com//blog/2012/16850549885/"/>
+	    <link href="http://graphicgraffiti.com.au//blog/2012/16850549885/"/>
     
     <updated>2012-02-01T00:00:00+11:00</updated>
-    <id>http://valhallaisland.com//blog/2012/16850549885</id>
+    <id>http://graphicgraffiti.com.au//blog/2012/16850549885</id>
 		
 			<content type="html"><![CDATA[<p>While companies like Qantas are willing to <a href="http://valhallaisland.com/post/12096966406">screw customers and lose millions of dollars</a> as a tool to not pay their employees what they&#8217;re worth, Ken Grenda <a href="http://abc.net.au/news/2012-02-01/bus-company-rewards-staff-with-cash-bonuses/3803902">hands out millions of dollars worth of bonuses</a> to his loyal staff.</p>
 
