@@ -66,13 +66,12 @@ body {
 aside {
   width: 300px;
   float: right;
-  border-top: 1px dotted #999;
-  border-bottom: 1px dotted #999;
+  border-top: 1px dotted #3D3D3D;
+  border-bottom: 1px dotted #3D3D3D;
   padding: 0 0 30px 0; }
   aside a {
     color: #0544FF;
-    text-decoration: none;
-    border-bottom: 0.8px solid #3D3D3D; }
+    text-decoration: none; }
   aside a:hover {
     color: #FF0544; }
   aside h1 {
