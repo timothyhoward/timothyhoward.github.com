@@ -42,23 +42,73 @@
     
 			
 				
-	        <h2 class="entry-title"><a href="http://icelab.com.au/articles/money-stress-and-the-cloud/">Money, Stress and The Cloud &rarr;</a></h2>
+	        <h2 class="entry-title">Installing IRSSI with Proxy on Mac OS X</h2>
 	      
 			
     
   </header>
 
 
-  <div class="entry-content"><p>Tim Riley&#8217;s post about the way solving a difficult software development problem can interfere with your entire life struck a chord with me. Although Tim&#8217;s problem was bigger than anything I&#8217;ve had to deal with, credit card processing on a client&#8217;s website, the horrible feelings are the same.</p>
+  <div class="entry-content"><p>Included file &#8216;JB/setup&#8217; not found in _includes directory</p>
 
-<p>All software has bugs, you accept and systematically work through them. But some bugs exist on another plane, unable to be fixed through regular debugging processes. Often they&#8217;re complicated by context, an unfamiliar environment or parts out of your control. You can become <em>obsessed</em> with these bugs. When dealing with them I have an extremely difficult time thinking about anything else. I can&#8217;t read, I can&#8217;t talk to people, I&#8217;m unpleasant to be around. After hours without progress you go to bed thinking about it. Thinking about it makes you angry and frustrated but <em>you can&#8217;t stop thinking about it</em>. You spend so long at the computer you lose all perspective and follow paths that take you further from the solution. With each minute you spend banging your head against the problem you think less clearly and the possibility of solving the problem decreases. It is <em>frustrating</em>.</p>
+<p>I couldn&#8217;t find any relevant documentation in regards to installing <em>irssi</em> on Mac OS X, so I thought I&#8217;d post some instructions for future reference and to assist any of those out there that wish to try <em>irssi</em>. For those that don&#8217;t know, <em>irssi</em> is a powerful text-based IRC client that can be run on Unix-like systems which include the likes of Mac OS X and its BSD counterparts, as well as distributions powered by the Linux kernel. The most useful feature - in my opinion - is the <em>irssi-proxy</em> function which allows for <em>irssi</em> to be run on a server inside GNU Screen (to act as a daemon and maintain a consistent IRC connection), acting as a bouncer/proxy for other clients to connect. In other words, say you had a iPhone or another Mac with an IRC client; you could configure these clients to connect to the proxy, and it would act as one consistent IRC session. If you were to disconnect either of the clients, the server providing the <em>irssi-proxy</em> would continue to be connected to IRC. Plugins can also be installed to even allow for backlogs, making this setup extremely powerful and useful. But enough of talking about it, let&#8217;s install it!</p>
 
-<p>Experience reminds you how to overcome this wall. You have to get up, leave, distract yourself and come back with a fresh perspective and a clear mind. Actually doing it is difficult because it feels like quitting, it feels like you&#8217;re delaying the solution. It&#8217;s difficult if other people depend on the solution, it&#8217;s difficult because you feel like you&#8217;re close, it&#8217;s difficult because you desperately want it fixed and out of your mind. To solve the problem you have to stop trying to solve the problem, at least for a short while.</p>
+<h1>Installing Homebrew</h1>
 
-<p>Tim went through this while dealing with other external stresses. His post is a great insight for non-programmers on the darker side of software development.</p>
+<p>If you don&#8217;t already have Homebrew, now is the time to get it. <strong>Homebrew</strong> is a brilliant package manager for OS X, similar to the likes of <em>apt-get</em> and <em>pacman</em>. Once installed, Homebrew uses &#8216;formulas&#8217;, which are basic Ruby scripts that hold the commands to configure, patch, compile and install packages on to OS X. It figures out the quirks of OS X for you, so you don&#8217;t have to! To install, simply type:</p>
+
+<pre><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+</code></pre>
+
+<p>This will install Homebrew into <em>/usr/local</em> so that you won&#8217;t have to <em>sudo</em> when you <em>brew install</em>. Now, onwards to installing the dependencies of IRSSI.</p>
+
+<h1>Prerequisites</h1>
+
+<p>There are a few things which will need to be installed before IRSSI can be compiled and installed itself. These packages are:</p>
+
+<ul>
+<li><strong>Glib</strong> - <em>A core suite of libraries for Unix-like applications written in C.</em></li>
+<li><strong>pkg-config</strong> - <em>A program used to retrieve information about installed libraries.</em></li>
+<li><strong>Gettext</strong>  - <em>A set of tools for multi-language support in GNU applications.</em></li>
+<li><strong>Libiconv</strong> - <em>A text encoding converter, used to convert between various character encodings in international text.</em></li>
+<li><strong>Libffi</strong> - <em>A portable, high level programming interface to various calling conventions.</em></li>
+</ul>
+
+
+<p>To install these dependencies, type these commands in order:</p>
+
+<pre><code>brew install pkg-config
+brew install glib
+brew install libiconv
+</code></pre>
+
+<p>Please note that <em>gettext</em> and <em>libffi</em> are installed with <em>glib</em>. Alright, almost done!</p>
+
+<h1>Installing IRSSI</h1>
+
+<p><strong>Homebrew</strong> is so good that we can even install IRSSI with it! In this tutorial, I am going to install <em>perl</em> support and <em>irssi-proxy</em>, as well as <em>irssi</em> itself. To install, type:</p>
+
+<pre><code>brew install irssi --with-perl=yes --with-proxy
+</code></pre>
+
+<p>Let the process run, and it will end with a symlink error:</p>
+
+<pre><code>==&gt; make install
+ln: module.h: Permission denied
+Error: The linking step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+You can try again using `brew link irssi'
+</code></pre>
+
+<p>This error is the result of a mistake in the Homebrew formula for <em>irssi</em>; it&#8217;s simply missing <em>sudo</em>! To rectify, type:</p>
+
+<pre><code>sudo brew link irssi
+</code></pre>
+
+<p>Type your password into the prompt, and you&#8217;re good to go! Further configuration documentation can be found on the <a href="http://example.com/"><em>irssi</em></a> site, or the excellent documentation on <a href="http://quadpoint.org/articles/irssi">Quadpoint</a> detailing how to run <em>irssi</em> in GNU Screen as previously mentioned. If you have trouble with anything, leave a comment below and I&#8217;ll try to assist!</p>
 </div>
   
-	<p class="date"><a href="/blog/2012/tim-riley/"><span>&#9875;</span> 
+	<p class="date"><a href="/blog/2012/installing-irssi-with-proxy-on-mac-os-x/"><span>&#9875;</span> 
 
 
 
@@ -70,46 +120,7 @@
   
 
 
-<time datetime="2012-05-07T19:17:00+10:00" pubdate data-updated="true">May 7<span>th</span>, 2012</time></a></p> 
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-			
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve recently been building an HTML email newsletter at work. Getting an HTML email to work across the many <a href="http://www.campaignmonitor.com/css/">extremely limited</a> and broken email clients makes IE6 debugging look like fin. I truly don&#8217;t think HTML email is worth the effort but that&#8217;s another story.</p>
-
-<p>It meant I needed to get a Hotmail account for testing. The first time I&#8217;d used Hotmail in 6 or 7 years. As a regular iCloud webmail user I found what I think is a nice example of the difference between Apple and Microsoft at the screens shown immediately after logging in:</p>
-
-<p><a href="http://static.jimwhimpey.com/blog/hotmail-login-large.png"><img src="http://static.jimwhimpey.com/blog/hotmail-login-small.png" alt="hotmail-login" class="no-border"></a></p>
-
-<p><a href="http://static.jimwhimpey.com/blog/icloud-login-large.png"><img src="http://static.jimwhimpey.com/blog/icloud-login-small.png" alt="icloud-login" class="no-border"></a></p>
-
-<p>I remember as a teenager using Windows before I switched to the Mac getting frustrated about these kinds of UIs and Windows&#8217; inexplicable popularity despite it. It feels great to have watched better persist and <a href="http://www.wolframalpha.com/input/?i=MSFT%2C+AAPL">better eventually win</a>.</p>
-</div>
-  
-	<p class="date"><a href="/blog/2012/microsoft-apple-web/"><span>&#9875;</span> 
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-02-21T20:35:00+11:00" pubdate data-updated="true">Feb 21<span>st</span>, 2012</time></a></p> 
+<time datetime="2012-02-28T00:00:00+11:00" pubdate data-updated="true">Feb 28<span>th</span>, 2012</time></a></p> 
   
 
 
@@ -122,47 +133,114 @@
     
 			
 				
-	        <h2 class="entry-title">From Tumblr to Octopress</h2>
+	        <h2 class="entry-title">Ripping Vinyl Records</h2>
 	      
 			
     
   </header>
 
 
-  <div class="entry-content"><p>The move from WordPress to Tumblr a few years ago felt great. All the focus was on posting content and I was liberated from the need to administer a blog. Since then Tumblr has struggled with stability problems while implementing weird &#8220;social features&#8221; like photo replies (but no native text replies) and getting obsessed with things like New York Fashion Week. Recently they added these <a href="http://staff.tumblr.com/post/16980189397/highlighted-posts">dumb labels</a> and I recognised Tumblr is going too far in a direction I&#8217;m not interested in.</p>
+  <div class="entry-content"><p>Few, if any formats, have lasted as long as the humble gramophone record. Even with the entry into mainstream by modern devices such as the iPod, the record has maintained a foothold with disc jockeys and young students, like myself. While compact disc sales have stayed in a steady decline over the past decade, sales of records have grown steadily, with the format refusing to die. The fact is, vinyl records are here to stay.</p>
 
-<p>I first became interested in (well, aware of) generated flat file publishing systems when I read about Brent&#8217;s <a href="http://inessential.com/2009/01/30/new_publishing_system_tour_of_my_head">homemade system</a> over three years ago. Only a couple of months after that I got a job working on a site that was using a similar flat file system on a <a href="http://www.abc.net.au/news/"><em>much</em> larger scale</a> (it&#8217;s only recently been replaced). I was intrigued by the big advantages of such a system: speed and simplicity.</p>
+<p>Personally, vinyl records are my format of choice. I have a large collection of records in my room with my turntable and vintage hi-fi stereo. While I’m out on the go, I’m like everyone else – I use an iPod. With this setup, I have the experience of vinyl at home, and out on the go I have my library with me in a totally accessible format. The trend recently when purchasing new vinyl records is that they usually come with a free MP3 download of the same album – there are a few catches though.</p>
 
-<p>My loss of respect for Tumblr coincided with reading about <a href="http://octopress.org/">Octopress</a> on <a href="http://mattgemmell.com/2011/09/12/blogging-with-octopress/">Matt Gemmell&#8217;s blog</a>. It sounded perfect. It&#8217;s the kind of new wave of &#8220;hacker&#8221; software that&#8217;s well designed and a joy to use. I credit Github for this great trend.</p>
+<p>Of all of the bundled MP3 offers I have seen with records, the offer is only available in the United States, even if the same record was sold in another country, such as Australia or the United Kingdom. If you can redeem the offer, the downloads are usually only of 256 Kbit/s quality – good enough for most people, yet not for all. And if you buy a second-hand record, or a new record without a MP3 copy bundled, you don’t have a digital copy for your iPod. Yes, you can quickly download a copy off a BitTorrent site (not that I condone that), or legally, you can download it off iTunes, but some bands only release a vinyl copy, or it may be a rare record. In these cases, you’ll have to digitize it, and luckily, it’s not hard.</p>
 
-<h3>Transistion</h3>
+<h2>Preparing to Rip</h2>
 
-<p>Getting my content out of Tumblr was a breeze with Jekyll&#8217;s <a href="https://github.com/mojombo/jekyll/wiki/blog-migrations">blog mirgration script</a>. I had to make a few wholesale modifications to some paths and similar things in the post files the script created but this is where Octopress imediately demonstrated it&#8217;s advantages. I was able to do regex find and replaces across 500+ posts in a few seconds using TextMate. Doing something similar to posts stored in a database would be a real pain in the ass.</p>
+<p>To digitize a record, you’re going to need a few things at your disposal. You’ll need a vinyl record, a decent turntable, a preamplifier or an amplifier with an internal preamplifier, a computer with a line-in input and some software. I’ve split these up into miniature guides below. Hopefully they are helpful.</p>
 
-<h3>Redesign</h3>
+<h3>Turntables</h3>
 
-<p>The default Octopress theme is the most elegant default theme shipping with any CMS I&#8217;ve seen but it offers more than I need and in any case, I want a unique look for my blog. The CSS of the default theme is made to be customised and continuing the for hackers ideology its organised into <em>25</em> (yes twenty-five) <a href="http://sass-lang.com/">Sass</a> files which compile down to one CSS file. Every feature of Sass is used, everything is modular, everything is a variable. I was hoping to reuse some of the responsive stuff but it was too complex and I ended up throwing it all out and starting again with my own CSS.</p>
+<p>It’s actually quite hard to find a decent turntable for a good price these days. New models at low price points are of low quality, so the best way to buy is vintage. There are two distinct types of turntables – belt drive and direct drive. Yes, there are other types available, but these two are the most popular and easily found. I personally recommend the Japanese-made 1970’s gear. It’s easily found on places like eBay, and the local market, and it is of good quality. You’ll be able to tell it’s 1970’s-era gear in a few ways – you can check the serial number/model number against a database, or you can look at the item and use it’s features to determine the era. If it is a black plastic, it is a 1980’s-era device. 1970’s-era gear is usually a combination of vinyl veneer or wood, and metal fronts, usually made of stainless steel or aluminum. Most of this gear is reasonably priced, and can be repaired or serviced by a local hi-fi specialist.</p>
 
-<p>Logic in the template files is handled by <a href="http://liquidmarkup.org/">Liquid</a> which made them easy to modify and generally work with.</p>
+<h3>Phonograph Cartridge &amp; Stylus</h3>
 
-<p>When I first started out blogging with WordPress around 8 or 9 years ago I would compulsively redesign my site. Looking back this was fantastic, with every new redesign I&#8217;d learn so much. It might say something about my maturity or current state of mind that even though I&#8217;ve been using this design for over a year and moving to Octopress was an ideal opportunity to change it, I&#8217;ve kept everything the same with only some subtle updates.</p>
+<p>There is a lot of personal preference involved in selecting a phonograph cartridge. Some cartridges sound ‘warm’, some sound ‘analytic’, and some sound ‘flat’. The best way to choose a cartridge is by doing research – read reviews and opinions. A good place to start for reviews is Amazon. I personally use an Audio Technica AT95E, an entry-level cartridge that sounds flat. I’ll be upgrading this to a ‘warm’ Grado cartridge in the near future.</p>
 
-<p>I&#8217;d love to create some publicly available Octopress themes just as I did for WordPress and then Tumblr.</p>
+<h3>Amplifier/Receiver</h3>
 
-<h3>Images</h3>
+<p>Like purchasing a turntable, buy vintage. You may already have an old amplifier in your shed. Make sure it’s in good nick, and that it has a preamplifier built-in. If there’s no preamplifier built in, you’ll have to purchase an external one.</p>
 
-<p>The only thing missing is a simple way to process images. I need something that I can easily pass through an original, have it resize to a small and a large, upload them to a server somewhere and return some Markdown pointing to the large surrounded by a link to the larger one. I&#8217;ll write a simple script to do this for me and the result will be images decoupled from my publishing system.</p>
+<h3>Computer and Cables</h3>
 
-<p><strong>Update</strong>: I solved this problem with an <a href="http://valhallaisland.com/blog/2012/octopress-image-resizer/">image resizing script</a>.</p>
+<p>You will need a computer with decent specifications, and a line-in input. This input may also be denoted with a microphone, as it is usually also the microphone input. Other than this, you will need the appropriate cables to connect up the amplifier to your computer. In most cases you will need a Stereo RCA (red/white) to 3.5mm cable.</p>
 
-<h3>Conclusion</h3>
+<h2>Record Preparation</h2>
 
-<p>I&#8217;ve been using Octopress for a week now and I&#8217;ve immediately noticed the blazing speed. I don&#8217;t write much that gets big traffic but I can rest assured know that if I do it&#8217;ll no doubt handle the load with room to spare. Another great advantage is the simple ability to use proper version control for the <em>whole</em> site, both the code that generates it and the generated blog. I love the whole workflow.</p>
+<p>To achieve a good rip, your record has to be in good condition. If it’s covered in dust, you will need to clean it. If it’s covered in scratches, there’s not a lot you can do. You cannot clean records in a general way; care needs to be taken. There are numerous methods, but the most accessible method is to make a mixture of 50% isopropyl alcohol (available from your local chemist, hardware store or electronics retailer) and 50% distilled water (available from your local supermarket). Wash in one direction with a microfiber cloth, and then allow to dry completely. Do not wet-play your records, as this can damage your records by embedding dust in the base of your record’s grooves. Once dry, place in a clean polypropylene/paper sleeve. Your record is now ready to rip.</p>
 
-<p>While I&#8217;m not publishing with Tumblr anymore I still use it to read the Tumblr blogs I follow. All week I&#8217;ve been seeing <a href="http://cl.ly/3d3C3W2I0l0t1P2X3q1E">this</a> promoted in the dashboard sidebar. It feels like I left just in time.</p>
+<h2>Turntable Preparation</h2>
+
+<p>Make sure the dust mat on the platter is clean, and make sure your turntable is tuned correctly. You can search the Internet on how to do this, or you can pay a visit to your local hi-fi specialist. Once you have confirmed these two requirements, connect your turntable to your ‘Phono’ input, and using the RCA to 3.5mm cable, connect the RCA side to ‘Tape Monitor’ and 3.5mm side to your computer’s ‘Line In’ or ‘Microphone’ input. Your turntable is now setup to rip.</p>
+
+<h2>The Recording Process</h2>
+
+<p>Throughout this process, I’ll be using a Mac, but this will also work on Windows and Linux. I personally use Adobe Soundbooth as I have a copy of Adobe’s Creative Suite handy due to my university enrollment, but in this guide I will be using Audacity, a free cross-platform audio editor that is more than capable for the job.</p>
+
+<h2>Software Configuration</h2>
+
+<h3>Mac:</h3>
+
+<p>Open Audacity and go to ‘Preferences’.
+Go to the ‘Devices’ tab, then in the ‘Recording’ pane make sure the correct device is selected, and ‘Channels’ is set to ‘2’.
+Now go to the ‘Quality’ tab, and under the ‘Sampling’ pane, set the ‘Default Sample Format’ to 44100Hz, and the ‘Default Sample Format’ to ’32-bit float’.
+Under the ‘Real-time Conversion’ pane, set the ‘Sample Rate Converter’ to ‘Fast Sinc Interpolation’ and ‘Dither’ to ‘None’.
+Under the ‘High-quality Conversion’ pane, set the ‘Sample Rate Converter’ to ‘High-quality Sinc Interpolation’ and ‘Dither’ to ‘Triangle’.
+Restart Audacity to apply the settings.
+Optional: If you are using headphones, and wish to monitor the recording, tick the box for ‘Software Play-through’ under the ‘Recording’ tab, and ‘Play-through’ pane.</p>
+
+<p>Important: If you are using a Mac, file format settings are configured after you have recorded the song, and are saving it. You will want to use a lossless format, such as FLAC (Free Lossless Audio Codec) or WAV (16-bit or 32-bit PCM). You can convert it to a lossy format (e.g. MP3/AAC) later.</p>
+
+<h3>Windows/Linux:</h3>
+
+<p>Note: May not be up to date, as I do not own a Windows computer anymore, and I don’t run a virtual machine. The Linux version of Audacity is designed the same way as the Windows version.</p>
+
+<p>Open Audacity, and navigate to the ‘Edit’ menu, then click on ‘Preferences’.
+Go to the ‘Audio’ tab, and make sure the correct audio device is selected under ‘Recording’.
+Now go to the ‘Quality’ tab, and use the settings supplied in the Mac instructions.
+Next, go to the ‘File Formats’ tab, and select the format you would like to export the resulting recording to. I suggest exporting to FLAC or WAV (16-bit or 24-bit PCM). You can convert to an iPod-friendly lossy format (e.g. MP3/AAC) later.
+Restart Audacity to apply the settings.
+Starting the Recording Process</p>
+
+<p>Once you have cleaned the record you want to rip, setup the turntable and computer, and setup the software, you are now ready to begin the recording process. Before you can start recording, you will need to verify the input levels.</p>
+
+<p>Place your clean record on your turntable, turn the amplifier on, and place the stylus down on to the record.
+In Audacity, press the ‘Record’ button, denoted by the red circle.
+Watch the window fill with the waveform of the recording. If you are monitoring with headphones, you should be able to hear the recording playing. If not, something is not setup right, or the volume is at zero on your amplifier.
+Whilst the waveform is generating, you will see two bars at the top of the screen moving rapidly. These are your VU meters, and denote the input level. Turn the volume down on your amplifier until the maximum level reached at the peak (loudest point) of the recording is at 75% of the VU meter. This may take a while to achieve, but it is essential to avoid ‘clipping’.
+Stop the recording, clear the waveform (Edit, then ‘Clear All’) and click ‘Record’ again. Wait a minute, then stop the recording, and lift the stylus off the record. Listen over the recording to make sure it’s good. If it is, you’re ready to record.
+Record</p>
+
+<p>Create a new Audacity project, and discard the test recording. Place the clean record on your turntable, without placing the stylus down, and click the ‘Record’ button. Now place the stylus down on to the start of the record on ‘Side A’. Play the record through, and then stop the recording. Repeat for ‘Side B’.</p>
+
+<p>Note: If you are monitoring with the ‘Software Play-through’ setting, please use headphones. If you use speakers, you may introduce vibrations into the recording.</p>
+
+<h2>Post Processing</h2>
+
+<p>Once each side has completed recording, you will have to split the resulting waveform into individual tracks. You cannot do this automatically in Audacity, so you will have to do it manually.</p>
+
+<p>Navigate to the beginning of the track, and start playing it. When you reach the gap between tracks, stop playback, and add a label (Go to the ‘Project’ menu, then select ‘Add Label to Selection’).
+Name the label the name of the next track (e.g. on the gap at the end of the first track, name it the name of the second; we will be naming the first track later).
+Repeat for following tracks.
+After you have named all of the tracks, you will have to amplify the recording to a normal listening level.</p>
+
+<p>Select the entire recording (Cmd+A or Ctrl+A).
+Go to the ‘Effect’ menu, and select ‘Amplify’.
+Audacity will automatically select 0dB maximum output, which is a normal listening level. If the ‘Amplification (dB)’ box shows 0.0, you have clipped the recording (the VU input levels were set above 75% maximum) and you will have to rip the record again – treat it as a learning experience.
+Type ‘0.1’ into the ‘New Peak Amplitude’ box, and click ‘OK’.
+It’s now time to export the processed recording.</p>
+
+<p>Go to the ‘File’ menu, and then click ‘Export Multiple’.
+Select the format you want to export to, and select where you wish to export the files to.
+Under the ‘Split files based on’ pane, select ‘Labels’, and tick the box for ‘Include Audio Before First Label’ and use the name of the first track.</p>
+
+<h2>Conclusion</h2>
+
+<p>You now have a high quality, digital copy of your vinyl record. If you exported it to a Lossless format (e.g. FLAC/WAV), you can convert this to an ALAC (Apple Lossless) format if you want to keep it lossless, or to a MP3 or AAC. You can now enjoy your vinyl record on the go with your iPod!</p>
 </div>
   
-	<p class="date"><a href="/blog/2012/octopress/"><span>&#9875;</span> 
+	<p class="date"><a href="/blog/2012/ripping-vinyl-records/"><span>&#9875;</span> 
 
 
 
@@ -174,38 +252,7 @@
   
 
 
-<time datetime="2012-02-14T20:45:00+11:00" pubdate data-updated="true">Feb 14<span>th</span>, 2012</time></a></p> 
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-			
-    
-  </header>
-
-
-  <div class="entry-content"><p>Last week&#8217;s This American Life podcast episode, a rerun from 1997, was all about <a href="http://www.thisamericanlife.org/radio-archives/episode/74/conventions">conventions</a>. At 37:38 starts the saddest story I have ever heard, bizarrely starting at a NeXT convention and a Steve Jobs comedy roast. I&#8217;m not sure why this story hits my usually somewhat callous heart so hard but I was deeply moved.</p>
-</div>
-  
-	<p class="date"><a href="/blog/2012/conventions/"><span>&#9875;</span> 
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-02-13T21:08:00+11:00" pubdate data-updated="true">Feb 13<span>th</span>, 2012</time></a></p> 
+<time datetime="2012-01-06T00:00:00+11:00" pubdate data-updated="true">Jan 6<span>th</span>, 2012</time></a></p> 
   
 
 
