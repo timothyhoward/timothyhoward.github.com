@@ -242,6 +242,37 @@ article {
   .afterword p:first-child {
     margin-bottom: 5px; }
 
+.afterword-pagination p {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'PT Serif', Georgia, serif; }
+.afterword-pagination a {
+  color: #0544FF;
+  text-decoration: none;
+  border-bottom: 1px solid #0063A8;
+  position: absolute;
+  display: block;
+  width: 90px;
+  font-size: 17px;
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: bold;
+  border-bottom: none;
+  top: 0; }
+  .afterword-pagination a:hover {
+    color: #FF0544; }
+.afterword-pagination .next {
+  right: 0;
+  text-align: right; }
+.afterword-pagination .prev {
+  left: 0;
+  text-align: left; }
+.afterword-pagination .archive {
+  left: 152px;
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto; }
+
 .comments {
   font-family: 'PT Serif', Georgia, serif; }
 
