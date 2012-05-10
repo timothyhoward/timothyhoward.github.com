@@ -241,13 +241,13 @@ article {
       color: #FF0544; }
   .afterword p:first-child {
     margin-bottom: 5px; }
-  .afterword .next:p, .afterword .prev:p {
+  .afterword .next, .afterword .prev {
     font-size: 16px;
     font-family: 'PT Serif', Georgia, serif; }
-  .afterword .next {
+  .afterword .next:a {
     right: 0;
     text-align: right; }
-  .afterword .prev {
+  .afterword .prev:a {
     left: 0;
     text-align: left; }
   .afterword .next:a, .afterword .prev:a {
