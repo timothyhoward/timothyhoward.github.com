@@ -251,8 +251,7 @@ article {
 .pagination {
   height: 20px;
   margin-bottom: 20px;
-  position: relative;
-  border-bottom: 1px dotted #3D3D3D; }
+  position: relative; }
   .pagination p {
     text-align: center;
     font-size: 16px;
