@@ -4,7 +4,7 @@
   <title><![CDATA[Tenacious Tiger]]></title>
   <link href="http://graphicgraffiti.com.au//atom.xml" rel="self"/>
   <link href="http://graphicgraffiti.com.au//"/>
-  <updated>2012-05-10T21:13:56+10:00</updated>
+  <updated>2012-05-10T21:16:40+10:00</updated>
   <id>http://graphicgraffiti.com.au//</id>
   <author>
     <name><![CDATA[Timothy Howard]]></name>
@@ -35,6 +35,9 @@
     <id>http://graphicgraffiti.com.au//blog/2012/installing-irssi-with-proxy-on-mac-os-x</id>
 		
 			<content type="html"><![CDATA[<p>I couldn&#8217;t find any relevant documentation in regards to installing <em>irssi</em> on Mac OS X, so I thought I&#8217;d post some instructions for future reference and to assist any of those out there that wish to try <em>irssi</em>. For those that don&#8217;t know, <em>irssi</em> is a powerful text-based IRC client that can be run on Unix-like systems which include the likes of Mac OS X and its BSD counterparts, as well as distributions powered by the Linux kernel. The most useful feature - in my opinion - is the <em>irssi-proxy</em> function which allows for <em>irssi</em> to be run on a server inside GNU Screen (to act as a daemon and maintain a consistent IRC connection), acting as a bouncer/proxy for other clients to connect. In other words, say you had a iPhone or another Mac with an IRC client; you could configure these clients to connect to the proxy, and it would act as one consistent IRC session. If you were to disconnect either of the clients, the server providing the <em>irssi-proxy</em> would continue to be connected to IRC. Plugins can also be installed to even allow for backlogs, making this setup extremely powerful and useful. But enough of talking about it, let&#8217;s install it!</p>
+
+<!--more-->
+
 
 <h3>Installing Homebrew</h3>
 

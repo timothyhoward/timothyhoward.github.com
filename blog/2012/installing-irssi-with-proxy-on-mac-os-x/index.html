@@ -48,6 +48,9 @@
 
 <div class="entry-content"><p>I couldn&#8217;t find any relevant documentation in regards to installing <em>irssi</em> on Mac OS X, so I thought I&#8217;d post some instructions for future reference and to assist any of those out there that wish to try <em>irssi</em>. For those that don&#8217;t know, <em>irssi</em> is a powerful text-based IRC client that can be run on Unix-like systems which include the likes of Mac OS X and its BSD counterparts, as well as distributions powered by the Linux kernel. The most useful feature - in my opinion - is the <em>irssi-proxy</em> function which allows for <em>irssi</em> to be run on a server inside GNU Screen (to act as a daemon and maintain a consistent IRC connection), acting as a bouncer/proxy for other clients to connect. In other words, say you had a iPhone or another Mac with an IRC client; you could configure these clients to connect to the proxy, and it would act as one consistent IRC session. If you were to disconnect either of the clients, the server providing the <em>irssi-proxy</em> would continue to be connected to IRC. Plugins can also be installed to even allow for backlogs, making this setup extremely powerful and useful. But enough of talking about it, let&#8217;s install it!</p>
 
+<!--more-->
+
+
 <h3>Installing Homebrew</h3>
 
 <p>If you don&#8217;t already have Homebrew, now is the time to get it. <strong>Homebrew</strong> is a brilliant package manager for OS X, similar to the likes of <em>apt-get</em> and <em>pacman</em>. Once installed, Homebrew uses &#8216;formulas&#8217;, which are basic Ruby scripts that hold the commands to configure, patch, compile and install packages on to OS X. It figures out the quirks of OS X for you, so you don&#8217;t have to! To install, simply type:</p>
