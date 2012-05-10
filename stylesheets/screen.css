@@ -241,35 +241,6 @@ article {
       color: #FF0544; }
   .afterword p:first-child {
     margin-bottom: 5px; }
-  .afterword .next, .afterword .prev {
-    font-size: 16px;
-    font-family: 'PT Serif', Georgia, serif; }
-  .afterword .next:a {
-    right: 0;
-    text-align: right; }
-  .afterword .prev:a {
-    left: 0;
-    text-align: left; }
-  .afterword .next:a, .afterword .prev:a {
-    color: #0544FF;
-    text-decoration: none;
-    border-bottom: 1px solid #0063A8;
-    position: absolute;
-    display: block;
-    width: 90px;
-    font-size: 17px;
-    font-family: 'PT Serif', Georgia, serif;
-    font-weight: bold;
-    border-bottom: none;
-    top: 0; }
-    .afterword .next:a:hover, .afterword .prev:a:hover {
-      color: #FF0544; }
-  .afterword .archive {
-    left: 152px;
-    display: block;
-    text-align: center;
-    width: 200px;
-    margin: 0 auto; }
 
 .comments {
   font-family: 'PT Serif', Georgia, serif; }
@@ -280,7 +251,8 @@ article {
 .pagination {
   height: 20px;
   margin: 40px 0 50px 0;
-  position: relative; }
+  position: relative;
+  border-bottom: 1px dotted #3D3D3D; }
   .pagination p {
     text-align: center;
     font-size: 16px;
