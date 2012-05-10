@@ -117,6 +117,8 @@ aside {
         color: #0544FF; }
       aside ul li a:hover {
         color: #FF0544; }
+    aside ul img {
+      margin: 10px 0 10px 0; }
   aside .credit {
     font: normal 16px/1.6em "PT Serif", Georgia, serif;
     margin: 0 0 6px 0;
