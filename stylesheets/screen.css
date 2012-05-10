@@ -210,7 +210,7 @@ article {
   article code {
     font-size: 0.8em;
     font-family: Monaco, Consolas, Courier, monospace;
-    padding-bottom: 12px; }
+    margin-bottom: 12px; }
   article a img, article img {
     display: block;
     border: 2px solid black; }
