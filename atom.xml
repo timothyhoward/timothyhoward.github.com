@@ -4,7 +4,7 @@
   <title><![CDATA[Tenacious Tiger]]></title>
   <link href="http://graphicgraffiti.com.au//atom.xml" rel="self"/>
   <link href="http://graphicgraffiti.com.au//"/>
-  <updated>2012-05-10T21:19:20+10:00</updated>
+  <updated>2012-05-10T21:20:44+10:00</updated>
   <id>http://graphicgraffiti.com.au//</id>
   <author>
     <name><![CDATA[Timothy Howard]]></name>
@@ -12,19 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-		
-	    <title type="html"><![CDATA[Test post]]></title>
-	    <link href="http://graphicgraffiti.com.au//blog/2012/test-post/"/>
-    
-    <updated>2012-05-10T20:51:00+10:00</updated>
-    <id>http://graphicgraffiti.com.au//blog/2012/test-post</id>
-		
-			<content type="html"><![CDATA[
-]]></content>
-		
-  </entry>
   
   <entry>
 		
@@ -109,6 +96,9 @@ You can try again using `brew link irssi'
 <p>Personally, vinyl records are my format of choice. I have a large collection of records in my room with my turntable and vintage hi-fi stereo. While I’m out on the go, I’m like everyone else – I use an iPod. With this setup, I have the experience of vinyl at home, and out on the go I have my library with me in a totally accessible format. The trend recently when purchasing new vinyl records is that they usually come with a free MP3 download of the same album – there are a few catches though.</p>
 
 <p>Of all of the bundled MP3 offers I have seen with records, the offer is only available in the United States, even if the same record was sold in another country, such as Australia or the United Kingdom. If you can redeem the offer, the downloads are usually only of 256 Kbit/s quality – good enough for most people, yet not for all. And if you buy a second-hand record, or a new record without a MP3 copy bundled, you don’t have a digital copy for your iPod. Yes, you can quickly download a copy off a BitTorrent site (not that I condone that), or legally, you can download it off iTunes, but some bands only release a vinyl copy, or it may be a rare record. In these cases, you’ll have to digitize it, and luckily, it’s not hard.</p>
+
+<!--more-->
+
 
 <h3>Preparing to Rip</h3>
 
