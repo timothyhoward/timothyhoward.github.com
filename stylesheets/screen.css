@@ -186,7 +186,7 @@ article {
   article blockquote {
     margin: 0 0 15px 25px;
     padding: 0 0 0 15px;
-    border-left: 1px solid #999;
+    border-left: 1px solid #3D3D3D;
     font-family: 'PT Serif', Georgia, serif;
     font-style: italic;
     color: #666; }
@@ -209,8 +209,7 @@ article {
     list-style-type: decimal; }
   article code {
     font-size: 0.8em;
-    font-family: Monaco, Consolas, Courier, monospace;
-    margin-bottom: 12px; }
+    font-family: Monaco, Consolas, Courier, monospace; }
   article a img, article img {
     display: block;
     border: 2px solid black; }
