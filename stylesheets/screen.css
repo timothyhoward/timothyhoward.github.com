@@ -250,7 +250,7 @@ article {
 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .pagination {
   height: 20px;
-  margin: 12px 0 50px 0;
+  margin: 12px 0 12px 0;
   position: relative;
   padding-bottom: 12px;
   border-bottom: 1px dotted #3D3D3D; }
