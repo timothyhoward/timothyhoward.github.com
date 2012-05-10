@@ -79,7 +79,7 @@ aside {
     font-size: 55px;
     margin: 10px 0 15px 0;
     height: 80px;
-    line-height: 120px;
+    line-height: 80px;
     text-shadow: 0 2px 0 #fff;
     text-transform: uppercase; }
     aside h1 a {
@@ -118,7 +118,7 @@ aside {
       aside ul li a:hover {
         color: #FF0544; }
     aside ul img {
-      margin: 10px 0 10px 0; }
+      padding: 10px 0 10px 0; }
   aside .credit {
     font: normal 16px/1.6em "PT Serif", Georgia, serif;
     margin: 0 0 6px 0;
