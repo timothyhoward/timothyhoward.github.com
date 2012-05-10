@@ -140,7 +140,7 @@ article {
   width: 100%;
   padding: 0 0 16px 0;
   margin: 0 0 20px 0;
-  border-bottom: 1px dotted #999;
+  border-bottom: 1px dotted #3D3D3D;
   font-family: 'PT Serif', Georgia, serif;
   position: relative;
   overflow: hidden; }
@@ -250,7 +250,7 @@ article {
 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .pagination {
   height: 20px;
-  margin: 0px 0 20px 0;
+  margin: 20px 0 0px 0;
   position: relative;
   border-bottom: 1px dotted #3D3D3D; }
   .pagination p {
