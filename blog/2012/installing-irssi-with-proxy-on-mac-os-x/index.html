@@ -6,7 +6,7 @@
 <head>
 	
   <meta charset="utf-8">
-  <title>Starting from Square One - Tenacious Tiger</title>
+  <title>Installing IRSSI with Proxy on Mac OS X - Tenacious Tiger</title>
   <meta name="author" content="Timothy Howard">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale = 1.0" />
 
   
-  <link rel="canonical" href="http://graphicgraffiti.com.au//blog/2013/starting-from-square-one" />
+  <link rel="canonical" href="http://graphicgraffiti.com.au//blog/2012/installing-irssi-with-proxy-on-mac-os-x" />
   <link href="/favicon.ico" rel="icon" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -40,14 +40,71 @@
     
 			
 				
-	        <h2 class="entry-title">Starting from Square One</h2>
+	        <h2 class="entry-title">Installing IRSSI with Proxy on Mac OS X</h2>
 	      
 			
     
   </header>
 
 
-<div class="entry-content"><p>A lot has been happening in my life over the last two and a bit years since I started university, and hence this blog as sat dormant for the most part.</p>
+<div class="entry-content"><p>I couldn&#8217;t find any relevant documentation in regards to installing <em>irssi</em> on Mac OS X, so I thought I&#8217;d post some instructions for future reference and to assist any of those out there that wish to try <em>irssi</em>. For those that don&#8217;t know, <em>irssi</em> is a powerful text-based IRC client that can be run on Unix-like systems which include the likes of Mac OS X and its BSD counterparts, as well as distributions powered by the Linux kernel. The most useful feature - in my opinion - is the <em>irssi-proxy</em> function which allows for <em>irssi</em> to be run on a server inside GNU Screen (to act as a daemon and maintain a consistent IRC connection), acting as a bouncer/proxy for other clients to connect. In other words, say you had a iPhone or another Mac with an IRC client; you could configure these clients to connect to the proxy, and it would act as one consistent IRC session. If you were to disconnect either of the clients, the server providing the <em>irssi-proxy</em> would continue to be connected to IRC. Plugins can also be installed to even allow for backlogs, making this setup extremely powerful and useful. But enough of talking about it, let&#8217;s install it!</p>
+
+<!--more-->
+
+
+<h3>Installing Homebrew</h3>
+
+<p>If you don&#8217;t already have Homebrew, now is the time to get it. <strong>Homebrew</strong> is a brilliant package manager for OS X, similar to the likes of <em>apt-get</em> and <em>pacman</em>. Once installed, Homebrew uses &#8216;formulas&#8217;, which are basic Ruby scripts that hold the commands to configure, patch, compile and install packages on to OS X. It figures out the quirks of OS X for you, so you don&#8217;t have to! To install, simply type:</p>
+
+<pre><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+</code></pre>
+
+<p>This will install Homebrew into <em>/usr/local</em> so that you won&#8217;t have to <em>sudo</em> when you <em>brew install</em>. Now, onwards to installing the dependencies of IRSSI.</p>
+
+<h3>Prerequisites</h3>
+
+<p>There are a few things which will need to be installed before IRSSI can be compiled and installed itself. These packages are:</p>
+
+<ul>
+<li><strong>Glib</strong> - <em>A core suite of libraries for Unix-like applications written in C.</em></li>
+<li><strong>pkg-config</strong> - <em>A program used to retrieve information about installed libraries.</em></li>
+<li><strong>Gettext</strong>  - <em>A set of tools for multi-language support in GNU applications.</em></li>
+<li><strong>Libiconv</strong> - <em>A text encoding converter, used to convert between various character encodings in international text.</em></li>
+<li><strong>Libffi</strong> - <em>A portable, high level programming interface to various calling conventions.</em></li>
+</ul>
+
+
+<p>To install these dependencies, type these commands in order:</p>
+
+<pre><code>brew install pkg-config
+brew install glib
+brew install libiconv
+</code></pre>
+
+<p>Please note that <em>gettext</em> and <em>libffi</em> are installed with <em>glib</em>. Alright, almost done!</p>
+
+<h3>Installing IRSSI</h3>
+
+<p><strong>Homebrew</strong> is so good that we can even install IRSSI with it! In this tutorial, I am going to install <em>perl</em> support and <em>irssi-proxy</em>, as well as <em>irssi</em> itself. To install, type:</p>
+
+<pre><code>brew install irssi --with-perl=yes --with-proxy
+</code></pre>
+
+<p>Let the process run, and it will end with a symlink error:</p>
+
+<pre><code>==&gt; make install
+ln: module.h: Permission denied
+Error: The linking step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+You can try again using `brew link irssi'
+</code></pre>
+
+<p>This error is the result of a mistake in the Homebrew formula for <em>irssi</em>; it&#8217;s simply missing <em>sudo</em>! To rectify, type:</p>
+
+<pre><code>sudo brew link irssi
+</code></pre>
+
+<p>Type your password into the prompt, and you&#8217;re good to go! Further configuration documentation can be found on the <a href="http://example.com/"><em>irssi</em></a> site, or the excellent documentation on <a href="http://quadpoint.org/articles/irssi">Quadpoint</a> detailing how to run <em>irssi</em> in GNU Screen as previously mentioned. If you have trouble with anything, leave a comment below and I&#8217;ll try to assist!</p>
 </div>
 
 
@@ -64,13 +121,15 @@
   
 
 
-<time datetime="2013-05-30T00:00:00+10:00" pubdate data-updated="true">May 30<span>th</span>, 2013</time>
+<time datetime="2012-02-28T00:00:00+11:00" pubdate data-updated="true">Feb 28<span>th</span>, 2012</time>
     </p>
 	</article>
 	<div class="pagination">
 		    
-		      <a class="prev" href="/blog/2012/installing-irssi-with-proxy-on-mac-os-x/" title="Previous Post: Installing IRSSI with Proxy on Mac OS X">&larr; Older</a>
+		      <a class="prev" href="/blog/2012/ripping-vinyl-records/" title="Previous Post: Ripping Vinyl Records">&larr; Older</a>
 		    
+		    
+		      <a class="next" href="/blog/2013/starting-from-square-one/" title="next Post: Starting from Square One">Newer &rarr;</a>
 		    
 	</div>
   
